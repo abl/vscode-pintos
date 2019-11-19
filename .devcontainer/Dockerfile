@@ -36,4 +36,6 @@ ENV DEBIAN_FRONTEND=
 
 ENV PINTOS_HOME=/workspaces/vscode-pintos
 ENV PATH=/workspaces/vscode-pintos/utils:$PATH
-ENV LANG=C
+ENV LANG C
+ENV LC_ALL C
+RUN ["ln", "/usr/bin/qemu-system-i386", "/usr/bin/qemu"]
