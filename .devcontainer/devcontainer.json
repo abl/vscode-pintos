@@ -1,0 +1,17 @@
+{
+    "name": "C++",
+    "dockerFile": "Dockerfile",
+    "runArgs": [
+        "-u",
+        "vscode",
+        "--cap-add=SYS_PTRACE",
+        "--security-opt",
+        "seccomp=unconfined"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-vscode.cpptools"
+    ]
+}
