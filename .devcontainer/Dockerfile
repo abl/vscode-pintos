@@ -36,3 +36,4 @@ ENV DEBIAN_FRONTEND=
 
 ENV PINTOS_HOME=/workspaces/vscode-pintos
 ENV PATH=/workspaces/vscode-pintos/utils:$PATH
+ENV LANG=C
